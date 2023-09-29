@@ -37,7 +37,9 @@ Mobile.tap(findTestObject('perfil contacto/android.widget.TextView'), 0)
 
 Mobile.tap(findTestObject('perfil contacto/android.widget.ImageButton (1)'), 0)
 
-Mobile.clearText(findTestObject('Object Repository/perfil contacto/android.widget.EditText - Edwin Meneses'), 0)
+Mobile.clearText(findTestObject('perfil contacto/android.widget.EditText - Edwin Meneses'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Object Repository/perfil contacto/android.widget.EditText'), 'nombre de prueba', 0)
 
@@ -48,6 +50,8 @@ Mobile.tap(findTestObject('Object Repository/perfil contacto/android.widget.Imag
 Mobile.setText(findTestObject('Object Repository/perfil contacto/android.widget.EditText - edwin_1324'), 'apodo1325', 0)
 
 Mobile.tap(findTestObject('perfil contacto/android.widget.Button - Aceptar'), 0)
+
+Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('perfil contacto/android.widget.ImageButton (1)'), 0)
 

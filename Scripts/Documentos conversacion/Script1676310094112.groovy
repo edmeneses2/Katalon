@@ -25,7 +25,7 @@ Mobile.tap(findTestObject('Object Repository/Documentos conversacion/android.wid
 
 Mobile.tap(findTestObject('Object Repository/Documentos conversacion/android.widget.LinearLayout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Documentos conversacion/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Documentos conversacion/android.widget.ImageView (1)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Documentos conversacion/android.widget.ImageButton (1)'), 0)
 

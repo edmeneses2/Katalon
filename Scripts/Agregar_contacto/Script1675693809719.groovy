@@ -21,7 +21,7 @@ Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Agregar_contacto/android.widget.FrameLayout'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Agregar_contacto/android.widget.EditText - Busca por apodo'), 'elpromax11', 
+Mobile.setText(findTestObject('Object Repository/Agregar_contacto/android.widget.EditText - Busca por apodo'), 'edwin_1324', 
     0)
 
 Mobile.tap(findTestObject('Object Repository/Agregar_contacto/android.widget.Button - AGREGAR'), 0)

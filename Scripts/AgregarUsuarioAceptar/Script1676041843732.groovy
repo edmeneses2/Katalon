@@ -17,12 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/AgregarUsuarioIconoCancelar/android.widget.FrameLayout'), 0)
 
 Mobile.setText(findTestObject('Object Repository/AgregarUsuarioIconoAceptar/android.widget.EditText - Busca por apodo'), 
-    'elpromax11', 0)
+    'edwin_1324', 0)
 
 Mobile.tap(findTestObject('Object Repository/AgregarUsuarioIconoAceptar/android.widget.Button - AGREGAR'), 0)
 
