@@ -31,3 +31,5 @@ Mobile.tap(findTestObject('Object Repository/acceso/android.widget.ImageButton (
 
 Mobile.tap(findTestObject('Object Repository/acceso/android.widget.ImageButton (3)'), 0)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
